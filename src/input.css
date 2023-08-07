@@ -144,7 +144,7 @@ figure.snip1192 .author h5 {
 }
 .navfixed{
   position: fixed;
-  background-color:rgb(97, 19, 19);
+  background-color:rgba(97, 19, 19,.8);
   top: 0;
   width: 100%;
   animation: navfixed .1s ease-in-out;

@@ -594,11 +594,6 @@ video {
   margin-right: auto;
 }
 
-.mx-\[2rem\] {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -766,11 +761,6 @@ video {
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -1130,7 +1120,7 @@ figure.snip1192 .author h5 {
 
 .navfixed{
   position: fixed;
-  background-color:rgb(97, 19, 19);
+  background-color:rgba(97, 19, 19,.8);
   top: 0;
   width: 100%;
   animation: navfixed .1s ease-in-out;
