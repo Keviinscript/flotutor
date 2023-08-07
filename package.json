@@ -1,0 +1,13 @@
+{
+   "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/main.css",
+    "babel": "babel src -d lib",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/main.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+  
+}
