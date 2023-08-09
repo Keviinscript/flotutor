@@ -9,7 +9,7 @@ body{
 .parallax-bg{
     background:url(./img/hero.jpg);
     -webkit-background:url(./img/hero.jpg );
-    background-attachment: scroll, fixed;
+    background-attachment:  fixed;
     -webkit-background-attachment: fixed;
     background-color:rgba(97, 19, 19, .6);
     -webkit-background-color:rgba(97, 19, 19, .6);
