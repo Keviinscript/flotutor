@@ -566,6 +566,10 @@ video {
   right: 10%;
 }
 
+.right-\[2\.2rem\] {
+  right: 2.2rem;
+}
+
 .top-\[25\%\] {
   top: 25%;
 }
@@ -577,11 +581,6 @@ video {
 .mx-\[\.7rem\] {
   margin-left: .7rem;
   margin-right: .7rem;
-}
-
-.mx-\[3\%\] {
-  margin-left: 3%;
-  margin-right: 3%;
 }
 
 .mx-\[4em\] {
@@ -630,6 +629,10 @@ video {
   width: 80%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -666,10 +669,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-x-\[4rem\] {
@@ -990,7 +989,7 @@ body{
   -webkit-background-position: center;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:991px) {
   .parallax-bg{
     background:url(./img/scott-graham-5fNmWej4tAA-unsplash.jpg);
     background-size: cover;
@@ -1000,6 +999,10 @@ body{
     background-color:rgba(97, 19, 19, .6);
     -webkit-background-color:rgba(97, 19, 19, .6);
     /* max-width: 100%; */
+  }
+
+  body{
+    overflow-x: hidden;
   }
 }
 
@@ -1023,9 +1026,9 @@ body{
   }
 }
 
-.navitems > *{
+/* .navitems > *{
   flex:1;
-}
+} */
 
 .menuicon{
   /* border: 1px solid #808080; */
@@ -1122,7 +1125,7 @@ figure.snip1192 .author h5 {
 
 .navfixed{
   position: fixed;
-  background-color:rgba(97, 19, 19,.8);
+  background-color:rgba(97, 19, 19,.6);
   top: 0;
   width: 100%;
   animation: navfixed .1s ease-in-out;
@@ -1130,6 +1133,21 @@ figure.snip1192 .author h5 {
   animation-timing-function: cubic-bezier(.65,.27,.63,.9) ;
   z-index: 9999;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width:991px) {
+  .navfixed{
+    position: fixed;
+    background-color:rgba(97, 19, 19,.6);
+    top: 0;
+    min-width:80%;
+    /* overflow-x: hidden; */
+    animation: navfixed .1s ease-in-out;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.65,.27,.63,.9) ;
+    z-index: 9999;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
 }
 
 @keyframes navfixed {
