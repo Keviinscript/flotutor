@@ -9,7 +9,7 @@ var facility2 = $(".spin2");
 // scroll-up button and navbar position on scroll
 $(window).on("scroll", function () {
  
-  if ($(this).scrollTop() > 5) {
+  if ($(this).scrollTop() > 25) {
     largeNav.addClass('navfixed')
     largeNav.removeClass('relative')
     
