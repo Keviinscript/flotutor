@@ -13,7 +13,7 @@ module.exports = {
       }, 
       fontFamily: {
         lato: [ 'Lato', 'sans-serif'],
-        oldstandard: [ 'Old Standard TT', 'sans-serif'],
+        oldstandard: [ 'Bree Serif', 'serif'],
       },
     extend: {
       colors:{
