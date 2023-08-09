@@ -7,8 +7,8 @@ body{
   overflow-x: hidden;
 }
 .parallax-bg{
-    background:url(./img/scott-graham-5fNmWej4tAA-unsplash.jpg);
-    -webkit-background:url(./img/scott-graham-5fNmWej4tAA-unsplash.jpg);
+    background:url(./img/hero.jpg);
+    -webkit-background:url(./img/hero.jpg );
     background-attachment: scroll, fixed;
     -webkit-background-attachment: fixed;
     background-color:rgba(97, 19, 19, .6);
@@ -28,11 +28,11 @@ body{
   }
   @media only screen and (max-width:991px) {
     .parallax-bg{
-      background:url(./img/scott-graham-5fNmWej4tAA-unsplash.jpg);
+      background:url(./img/hero.jpg);
       -webkit-background-size:cover;
       background-size: cover;
-      background-position: center;
-      -webkit-background-position: center;
+      background-position:  25% 75% ;
+      -webkit-background-position: 25% 75%;
       min-height: 100vh;
       background-color:rgba(97, 19, 19, .6);
       -webkit-background-color:rgba(97, 19, 19, .6);
