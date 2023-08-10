@@ -28,15 +28,30 @@
                 <div class="mobiler ">
                     <div class="relative z-[999] largenav ">
                         <div class="flex justify-between items-center w-[90%] mx-auto py-[2rem]">
-                    
+                            <!-- logo -->
                                 <div>
                                     <h1 class="text-cream font-lato font-extrabold text-3xl tracking-wider ">FLOTUTOR</h1>
                                 </div>
-                          
+                          <!-- menu icon -->
                             <div>
                                 <button id="menuicon" class="menuicon">
                                     <i class="ri-menu-fill"></i>
                                 </button>
+                            </div>
+                        </div>
+                        <!-- menu items -->
+                        <div id="menuitems" class="hidden menubg">
+                            <div class="flex justify-center items-center ">
+                                <ul
+                                    class="text-center font-lato text-gray-300 font-bold text-base space-y-7">
+                                    <li><a href="./index.html" class="">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Courses</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#"></a>Testimonial</li>
+                                    <li><a href="#"></a>Our Teachers</li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
@@ -203,44 +218,64 @@
                 </div>
             </div>
         </section>
-        <section class="  px-[15%] w-full py-[3rem] ">
+        <section class="grid grid-rows-1 gap-y-[2rem] md:gap-y-0 md:grid-cols-2 place-items-center">
             <div>
-                <div class="flex justify-center items-center py-[2rem]"> 
-                    <h1 class="text-beige text-center font-bold text-[2.5rem] font-oldstandard ">Schedule your FREE 20-minute class</h1>
-                </div>
-
-                <div class="space-y-4">
+                <section class="  px-[15%] w-full py-[3rem] ">
                     <div>
-    
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
-                        <input type="email" id="email" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="name@example.com">
+                        <div class="flex justify-center items-center py-[2rem]"> 
+                            <h1 class="text-beige text-center font-bold text-[2.5rem] font-oldstandard ">Schedule your FREE 20-minute class</h1>
+                        </div>
         
-        
-                    </div>
-                    <div>
-        
-                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 ">Your name</label>
-                        <input type="name" id="name" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="name">
-                        
-                    </div>
-                    <div>
-        
-                        <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 ">Your Phone Number</label>
-                        <input type="number" id="phone" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="phone number">
-                        
-                    </div>
-                    <div>
-        
-        
-                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
-                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 " placeholder="Leave a comment..."></textarea>
-        
-                    </div>
-                </div>
-                
-            </div>
+                        <div class="space-y-4">
+                            <div>
             
+                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
+                                <input type="email" id="email" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="name@example.com">
+                
+                
+                            </div>
+                            <div>
+                
+                                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 ">Your name</label>
+                                <input type="name" id="name" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="name">
+                                
+                            </div>
+                            <div>
+                
+                                <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 ">Your Phone Number</label>
+                                <input type="number" id="phone" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-beige focus:border-beige block w-full p-2.5 " placeholder="phone number">
+                                
+                            </div>
+                            <div>
+                
+                
+                                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
+                                <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 " placeholder="Leave a comment..."></textarea>
+                
+                            </div>
+                            <div class="flex justify-center w-ful mx-auto">
+                                <button type="submit" class="bg-beige font-lato text-white px-[2rem] py-[.5rem] rounded-md  ">SUBMIT</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </section>
+            </div>
+            <div>
+                <section class=" w-full place-items-center mx-auto flex justify-center items-center">
+                    <div>
+                        <!-- Calendly inline widget begin -->
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/ikechukwukevin725/introductory-call?primary_color=830128" style="min-width:330px;height:500px;"></div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <!-- Calendly inline widget end -->
+                    </div>
+                </section>
+            </div>
+
         </section>
+        
+       
         <section>
             <div class="flex justify-center items-center mx-auto pt-[3rem]  ">
                 <h1 class="font-oldstandard text-[2.5rem] text-beige  font-semibold text-center">Reviews</h1>
@@ -287,5 +322,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
     <script src="./src/js/jquery.js"></script>
+    <script src="./src/js/main.js"></script>
 </body>
 </html>

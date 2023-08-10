@@ -218,3 +218,14 @@ figure.snip1192 .author h5 {
       background-position: 0% 50%;
   }
 }
+.menubg{
+  background-color: rgb(97, 19, 19);
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  z-index: 99;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+}
